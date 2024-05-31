@@ -36,7 +36,7 @@ java -cp blockchain-1.0-SNAPSHOT.jar Main
 # Application Menu
 The application provides a terminal-based menu for interacting with the blockchain:
 
-Add a New Transaction
+1. Add a New Transaction
 
 * Prompts for sender, recipient, and amount to create a new transaction.
 * Example:
@@ -46,7 +46,7 @@ Enter recipient address: Ahmed
 Enter amount: 200
 Transaction added to the pool
 ```
-Mine a New Block
+2. Mine a New Block
 
 Mines a new block including pending transactions and adds it to the blockchain.
 Example:
@@ -55,7 +55,7 @@ Enter miner address: Omar-Miner-101
 Mining...
 Block mined successfully and added to the blockchain.
 ```
-Display the Blockchain
+3. Display the Blockchain
 
 * Displays the current state of the blockchain.
 * Example:
@@ -63,21 +63,21 @@ Display the Blockchain
 Block 0 [previousHash: 0, currentHash: abc123, data: Genesis Block]
 Block 1 [previousHash: abc123, currentHash: def456, data: Transactions]
 ```
-Validate the Blockchain
+4. Validate the Blockchain
 
 Validates the integrity of the blockchain.
 Example:
 ```
 Blockchain is valid.
 ```
-Show Wallet Public Key
+5. Show Wallet Public Key
 
 * Displays the public key of the wallet.
 * Example:
 ```
 Wallet Public Key: MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE1L...
 ```
-Exit
+6. Exit
 
 * Exits the application.
 # Testing the Application
