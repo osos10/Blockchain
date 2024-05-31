@@ -3,11 +3,11 @@
 Blockchain technology introduces a decentralized and immutable ledger that enables secure and transparent transactions without intermediaries. This project provides a practical guide to building a blockchain from scratch using Java and Spring Boot.
 
 # Features
-Basic blockchain implementation with blocks and transactions.
-Transaction pool for managing pending transactions.
-Proof of Work (PoW) consensus mechanism.
-Blockchain validation and integrity checks.
-Wallet management including key pair generation and transaction signing.
+* Basic blockchain implementation with blocks and transactions.
+* Transaction pool for managing pending transactions.
+* Proof of Work (PoW) consensus mechanism.
+* Blockchain validation and integrity checks.
+* Wallet management including key pair generation and transaction signing.
 # Installation
 Prerequisites
 Java 17 or higher
