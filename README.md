@@ -41,17 +41,17 @@ The application provides a terminal-based menu for interacting with the blockcha
 * Prompts for sender, recipient, and amount to create a new transaction.
 * Example:
 ```
-Enter sender address: Omar
-Enter recipient address: Ahmed
+Enter sender address: Ossama
+Enter recipient address: Ayoub
 Enter amount: 200
 Transaction added to the pool
 ```
 2. Mine a New Block
 
-*Mines a new block including pending transactions and adds it to the blockchain.
-*Example:
+* Mines a new block including pending transactions and adds it to the blockchain.
+* Example:
 ```
-Enter miner address: Omar-Miner-101
+Enter miner address: Osos-Miner
 Mining...
 Block mined successfully and added to the blockchain.
 ```
@@ -65,8 +65,8 @@ Block 1 [previousHash: abc123, currentHash: def456, data: Transactions]
 ```
 4. Validate the Blockchain
 
-*Validates the integrity of the blockchain.
-*Example:
+* Validates the integrity of the blockchain.
+* Example:
 ```
 Blockchain is valid.
 ```
@@ -81,20 +81,20 @@ Wallet Public Key: MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE1L...
 
 * Exits the application.
 # Testing the Application
-Adding a Transaction
-Select option 1 from the menu.
-Enter the sender address, recipient address, and amount.
-The transaction is added to the transaction pool.
-Mining a Block
-Select option 2 from the menu.
-Enter the miner's address.
-A new block is mined and added to the blockchain, and the miner receives a reward.
-Displaying the Blockchain
-Select option 3 from the menu.
-The blockchain's current state is printed to the console.
-Validating the Blockchain
-Select option 4 from the menu.
-The application checks the integrity of the blockchain and reports if it is valid or not.
-Showing Wallet Public Key
-Select option 5 from the menu.
-The public key of the wallet is displayed.
+## Adding a Transaction
+1.Select option 1 from the menu.
+2.Enter the sender address, recipient address, and amount.
+3.The transaction is added to the transaction pool.
+## Mining a Block
+1.Select option 2 from the menu.
+2.Enter the miner's address.
+3.A new block is mined and added to the blockchain, and the miner receives a reward.
+## Displaying the Blockchain
+1.Select option 3 from the menu.
+2.The blockchain's current state is printed to the console.
+## Validating the Blockchain
+1.Select option 4 from the menu.
+2.The application checks the integrity of the blockchain and reports if it is valid or not.
+## Showing Wallet Public Key
+1.Select option 5 from the menu.
+2.The public key of the wallet is displayed.
