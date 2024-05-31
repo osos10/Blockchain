@@ -2,14 +2,6 @@
 # Introduction
 Blockchain technology introduces a decentralized and immutable ledger that enables secure and transparent transactions without intermediaries. This project provides a practical guide to building a blockchain from scratch using Java and Spring Boot.
 
-# Table of Contents
-Introduction
-Features
-Installation
-Usage
-Application Menu
-Testing the Application
-License
 # Features
 Basic blockchain implementation with blocks and transactions.
 Transaction pool for managing pending transactions.
@@ -23,8 +15,8 @@ Maven
 Steps
 Clone the repository:
 
-`git clone https://github.com/Osos10/blockchain.git
-cd blockchain`
+$ git clone https://github.com/Osos10/blockchain.git
+$ cd blockchain
 Build the project:
 
 `mvn clean install`
@@ -36,7 +28,7 @@ Navigate to the `target` directory:
 Run the application:
 
 java -cp blockchain-1.0-SNAPSHOT.jar Main
-Application Menu
+# Application Menu
 The application provides a terminal-based menu for interacting with the blockchain:
 
 Add a New Transaction
@@ -73,7 +65,7 @@ Wallet Public Key: MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAE1L...
 Exit
 
 Exits the application.
-Testing the Application
+# Testing the Application
 Adding a Transaction
 Select option 1 from the menu.
 Enter the sender address, recipient address, and amount.
