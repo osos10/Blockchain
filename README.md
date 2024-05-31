@@ -48,8 +48,8 @@ Transaction added to the pool
 ```
 2. Mine a New Block
 
-Mines a new block including pending transactions and adds it to the blockchain.
-Example:
+*Mines a new block including pending transactions and adds it to the blockchain.
+*Example:
 ```
 Enter miner address: Omar-Miner-101
 Mining...
@@ -65,8 +65,8 @@ Block 1 [previousHash: abc123, currentHash: def456, data: Transactions]
 ```
 4. Validate the Blockchain
 
-Validates the integrity of the blockchain.
-Example:
+*Validates the integrity of the blockchain.
+*Example:
 ```
 Blockchain is valid.
 ```
