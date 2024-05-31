@@ -9,10 +9,10 @@ Blockchain technology introduces a decentralized and immutable ledger that enabl
 * Blockchain validation and integrity checks.
 * Wallet management including key pair generation and transaction signing.
 # Installation
-Prerequisites
+## Prerequisites
 Java 17 or higher
 Maven
-Steps
+## Steps
 Clone the repository:
 
 ```
