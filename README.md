@@ -15,11 +15,14 @@ Maven
 Steps
 Clone the repository:
 
-$ git clone https://github.com/Osos10/blockchain.git
-$ cd blockchain
+```
+git clone https://github.com/Osos10/blockchain.git
+cd blockchain
+```
 Build the project:
-
-`mvn clean install`
+```
+mvn clean install
+```
 # Usage
 Running the Application
 Navigate to the `target` directory:
